@@ -31,11 +31,12 @@
     background-color: #D4E157;
     animation-name: my-first-animation;
     animation-duration: 5s;
-    animation-fill-mode: both;
-    cursor: zoom-in;
+    animation-fill-mode: none;
     animation: none;
+    cursor: zoom-in;
+    
 }
 
-div:hover{
-    animation: my-first-animation 2s infinite;
+div:hover {
+    animation: my-first-animation 5s forwards;
 }

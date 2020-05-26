@@ -1,30 +1,33 @@
-body {background-color: #9E9E9E;
+body {
+    background-color: #9E9E9E;
 }
-
 @keyframes my-first-animation {
 
-10%:hover {background-color:#D4E157;
+    10% {
+    background-color:#D4E157;
     width: 50px;
     height: 50px;
-}
-
-25% {background-color:#FFEE58;
+    }
+    25% {
+    background-color:#FFEE58;
     width: 150px;
     height: 150px;
-}
-50% {background-color:#FFCA28;
+    }
+    50% {
+    background-color:#FFCA28;
     width: 200px;
     height: 200px;
-}
-75% {background-color:#FFA726;
+    }
+    75% {
+    background-color:#FFA726;
     width: 250px;
     height: 250px;
-}
-100% {background-color:#FF7043;
+    }
+    100% {
+    background-color:#FF7043;
     width: 300px;
     height: 300px;
-}
-
+    }
 }
 
 .animation {
